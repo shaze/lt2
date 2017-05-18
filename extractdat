@@ -1,0 +1,4 @@
+#! /bin/bash
+
+grep -f $2 -w $1 > $3
+
